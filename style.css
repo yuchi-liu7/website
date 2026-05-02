@@ -1,8 +1,4 @@
-/* ========================================
-   CUSTOM STYLES FOR YUCHI LIU'S PORTFOLIO
-   ======================================== */
 
-/* === GLOBAL STYLES === */
 :root {
   --primary-color: #2c3e50;
   --secondary-color: #3498db;
@@ -26,7 +22,6 @@ body {
   padding: 0;
 }
 
-/* Custom link styling */
 a {
   color: var(--secondary-color);
   text-decoration: none;
@@ -38,7 +33,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* === HERO SECTION === */
+
 .hero-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -62,7 +57,7 @@ a:hover {
   opacity: 0.95;
 }
 
-/* === INTRO SECTION === */
+
 .intro-section {
   max-width: 800px;
   margin: 40px auto;
@@ -82,7 +77,7 @@ a:hover {
   margin-top: 0;
 }
 
-/* === HIGHLIGHTS SECTION === */
+
 .highlights-section {
   max-width: 1200px;
   margin: 60px auto;
@@ -142,7 +137,7 @@ a:hover {
   margin: 15px 0;
 }
 
-/* === EDUCATION TIMELINE === */
+
 .education-section {
   max-width: 900px;
   margin: 60px auto;
@@ -212,7 +207,7 @@ a:hover {
   margin: 5px 0;
 }
 
-/* === SKILLS SECTION === */
+
 .skills-section {
   max-width: 1000px;
   margin: 60px auto;
@@ -257,7 +252,7 @@ a:hover {
   transform: scale(1.05);
 }
 
-/* === CONTACT SECTION === */
+
 .contact-section {
   text-align: center;
   max-width: 800px;
@@ -299,7 +294,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* === CV PAGE STYLES === */
+
 .cv-header {
   text-align: center;
   padding: 40px 20px;
@@ -348,7 +343,7 @@ a:hover {
   color: var(--light-text);
 }
 
-/* === PROJECTS PAGE STYLES === */
+
 .projects-header {
   text-align: center;
   padding: 60px 20px;
@@ -522,7 +517,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* Additional Projects */
+
 .additional-projects {
   margin-top: 60px;
 }
@@ -581,7 +576,7 @@ a:hover {
   font-weight: 500;
 }
 
-/* CTA Section */
+
 .cta-section {
   text-align: center;
   max-width: 700px;
@@ -617,7 +612,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* === RESPONSIVE DESIGN === */
+
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2em;
@@ -673,7 +668,7 @@ a:hover {
   }
 }
 
-/* === FOOTER STYLES === */
+
 footer {
   background: var(--primary-color);
   color: white;
@@ -687,7 +682,7 @@ footer p {
   opacity: 0.9;
 }
 
-/* === ACCESSIBILITY === */
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
@@ -695,7 +690,6 @@ footer p {
   }
 }
 
-/* Focus styles for keyboard navigation */
 a:focus,
 button:focus {
   outline: 3px solid var(--accent-color);
@@ -703,11 +697,8 @@ button:focus {
 }
 
 
-/* ========================================
-   两栏布局样式 - 铺满页面版本
-   ======================================== */
 
-/* 移除所有默认边距 */
+
 .container-fluid,
 .container {
   padding-left: 0 !important;
@@ -722,36 +713,36 @@ body {
   padding: 0 !important;
 }
 
-/* === 页面容器 - 完全铺满 === */
+
 .page-container {
   display: flex;
   max-width: 100%;
   width: 100%;
   margin: 0;
   gap: 0;
-  padding: 0 60px 0 0;  /* ← 右边留 20px */
+  padding: 0 60px 0 0;  
   background: #f5f5f5;
   min-height: calc(100vh - 51px);
 }
 
-/* === 左侧边栏 === */
+
 .sidebar {
   flex: 0 0 280px;
   background: white;
-  padding: 40px 20px;  /* ← 稍微减少内边距 */
+  padding: 40px 20px; 
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 51px;
   height: calc(100vh - 51px);
   overflow-y: auto;
-  margin-left: 60px;  /* ← 添加左边距 */
+  margin-left: 60px;
 }
 
 .profile-card {
   text-align: center;
 }
 
-/* 个人照片 */
+
 .profile-image {
   margin-bottom: 20px;
 }
@@ -765,7 +756,7 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* 姓名和职位 */
+
 .profile-name {
   font-size: 1.6em !important;
   margin: 15px 0 8px 0 !important;
@@ -788,7 +779,7 @@ body {
   font-size: 0.95em;
 }
 
-/* 联系方式图标 */
+
 .contact-links {
   display: flex;
   justify-content: center;
@@ -820,7 +811,7 @@ body {
   text-decoration: none;
 }
 
-/* 研究兴趣 */
+
 .research-interests {
   text-align: left;
   margin-top: 25px;
@@ -849,10 +840,10 @@ body {
   margin-bottom: 8px;
 }
 
-/* === 右侧主内容区 - 铺满 === */
+
 .main-content {
   flex: 1;
-  padding: 40px 30px;  /* ← 左右改成 30px */
+  padding: 40px 30px;  
   min-width: 0;
   background: #f5f5f5;
 }
@@ -881,7 +872,7 @@ body {
   font-size: 1em;
 }
 
-/* What I Do 网格 - 横向三列 */
+
 .highlights-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -921,7 +912,7 @@ body {
   margin: 0;
 }
 
-/* Education 列表 */
+
 .education-list {
   margin-top: 20px;
 }
@@ -931,7 +922,7 @@ body {
   margin-bottom: 20px;
   background: #f8f9fa;
   border-radius: 8px;
-  border: 3px solid var(--secondary-color);  /* ← 全边框 */
+  border: 3px solid var(--secondary-color); 
   transition: transform 0.3s ease;
 }
 
@@ -961,7 +952,6 @@ body {
   display: block;
 }
 
-/* Skills 样式调整 */
 .content-section .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -998,7 +988,7 @@ body {
   transform: scale(1.05);
 }
 
-/* === 导航栏样式 === */
+
 .navbar-default {
   background-color: var(--secondary-color) !important;
   border-color: var(--secondary-color) !important;
@@ -1027,7 +1017,7 @@ body {
   color: white !important;
 }
 
-/* === 响应式设计 === */
+
 @media (max-width: 1400px) {
   .main-content {
     padding: 30px 40px;
@@ -1077,35 +1067,33 @@ body {
   }
 }
 
-/* 移除默认的页面标题 */
+
 h1.title {
   display: none;
 }
 
 
-/* === 强制导航栏左右边距 === */
 .navbar {
   padding-left: 80px !important;
-  padding-right: 80px !important;  /* 添加右边距 */
+  padding-right: 80px !important; 
 }
 
 .navbar-default {
   padding-left: 80px !important;
-  padding-right: 80px !important;  /* 添加右边距 */
+  padding-right: 80px !important; 
 }
 
 .navbar > .container-fluid {
   padding-left: 0 !important;
-  padding-right: 0 !important;  /* 添加 */
+  padding-right: 0 !important;  
   margin-left: 80px !important;
-  margin-right: 80px !important;  /* 添加右边距 */
+  margin-right: 80px !important;  
 }
 
 .navbar-brand {
   margin-left: 0 !important;
 }
 
-/* 右侧图标也留白 */
 .navbar-nav.navbar-right {
   margin-right: 0 !important;
 }
