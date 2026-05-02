@@ -3,51 +3,26 @@ title: "Projects"
 ---
 
 ::: projects-header
-# Research & Projects
-
+<h1>Research & Projects</h1>
 <p class="projects-subtitle">Highlights from my graduate-level research and data analysis work</p>
 :::
 
-
 ::: projects-container
 
-::: {.project-card .featured}
-::: project-header
-## <i class="fa fa-heartbeat"></i> AI-Based Medical Triage System for Oculoplastics Referral
+## AI-Based Medical Triage System for Oculoplastics Referral
 
-[Current Research]{.project-badge}
-:::
+**Feb 2026 - Present | Emory University**
 
-::: project-meta
-[<i class="fa fa-calendar"></i> Feb 2026 - Present]{.meta-item}
-[<i class="fa fa-map-marker"></i> Emory University]{.meta-item}
-:::
-
-::: project-description
 Leading the statistical analysis for a groundbreaking fine-tuned Large Language Model designed to assist in medical referral triage for oculoplastic cases. This project represents the first-of-its-kind application of LLMs in this specific medical domain.
 
-### Key Contributions
+**Key Contributions:**
 
 - **Performance Validation:** Utilized Weighted Kappa and AUROC metrics to quantify AI performance, demonstrating "near expert level" diagnostic accuracy
 - **Data Visualization:** Created comprehensive visualizations in R including confusion matrices, error distribution analyses, and ROC curves to communicate complex AI performance to clinical stakeholders
 - **Safety Assessment:** Validated model generalizability and safety by maintaining 100% sensitivity in identifying high-priority emergencies
 - **Statistical Rigor:** Applied advanced biostatistical methods to ensure robust evaluation of the AI system's clinical utility
 
-### Technical Highlights
-
-::: tech-stack
-[R]{.tech-tag}
-[Machine Learning]{.tech-tag}
-[ROC Analysis]{.tech-tag}
-[Kappa Statistics]{.tech-tag}
-[Clinical Validation]{.tech-tag}
-[Data Visualization]{.tech-tag}
-:::
-
-### Impact
-
-<p class="impact-text">This research has significant implications for improving medical triage efficiency and patient outcomes. By demonstrating both high diagnostic accuracy and perfect sensitivity for emergencies, the system shows promise as a clinical decision support tool.</p>
-:::
+**Skills:** R, Machine Learning, ROC Analysis, Kappa Statistics, Clinical Validation, Data Visualization
 
 ::: project-links
 [<i class="fa fa-github"></i> View Repository](https://github.com/yuchi-liu7){.btn-project target="_blank"}
@@ -55,49 +30,28 @@ Leading the statistical analysis for a groundbreaking fine-tuned Large Language 
 :::
 :::
 
-::: {.project-card .featured}
-::: project-header
-## <i class="fa fa-globe"></i> Global Health Data Analysis: COVID-19 Pandemic Study
+::: projects-container
+## Global Health Data Analysis: COVID-19 Pandemic Study
 
-[Graduate Project]{.project-badge}
-:::
+**Sep 2025 - Dec 2025 | Emory University**
 
-::: project-meta
-[<i class="fa fa-calendar"></i> Sep 2025 - Dec 2025]{.meta-item}
-[<i class="fa fa-map-marker"></i> Emory University]{.meta-item}
-:::
-
-::: project-description
 Comprehensive analysis of global health data with a focus on COVID-19 pandemic trends, utilizing database design and advanced SQL queries to extract meaningful insights from over 1 million health records.
 
-### Key Achievements
+**Key Achievements:**
 
 - **Database Architecture:** Designed a 4-table relational database with Entity Relationship Diagram (ERD) to manage and normalize 1,000,000+ rows of global health data
 - **Advanced Querying:** Developed complex SQL queries using subqueries and left joins to analyze mortality and recovery trends across multiple countries
 - **Epidemiological Insights:** Identified that the 36-60 age group experienced the highest COVID-19 burden in 2020, with detailed analysis of treatment success rates
 - **Comparative Analysis:** Quantified that Hepatitis led all tracked diseases in mortality rate at 5.22%, providing context for pandemic response priorities
 
-### Technical Highlights
+**Skills:** SQL, Database Design, Data Normalization, ERD
 
-::: tech-stack
-[SQL]{.tech-tag}
-[Database Design]{.tech-tag}
-[Data Normalization]{.tech-tag}
-[ERD]{.tech-tag}
-[Epidemiology]{.tech-tag}
-[Public Health]{.tech-tag}
-:::
-
-### Methodology
-
-The project employed rigorous data management principles, including normalization to reduce redundancy and ensure data integrity. Complex analytical queries were optimized for performance while maintaining accuracy in cross-country comparisons.
-:::
 
 ::: project-links
 [<i class="fa fa-github"></i> View Repository](https://github.com/yuchi-liu7){.btn-project target="_blank"}
 [<i class="fa fa-database"></i> Database Schema](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset){.btn-project-secondary}
 :::
-:::
+
 
 ::: additional-projects
 ## Additional Research Projects
