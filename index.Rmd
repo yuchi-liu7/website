@@ -1,9 +1,148 @@
 ---
-title: "My Website"
+title: "Home"
 ---
 
-Hello, Website!
+::: page-container
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+::: sidebar
+::: profile-card
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+::: profile-image
+```{r, echo=FALSE, fig.align='center', out.width='40%'}
+knitr::include_graphics("images/profile.png")
+```
+
+:::
+
+<h2 class="profile-name">Yuchi Liu</h2>
+
+<p class="profile-title">MSPH Student</p>
+
+<p class="profile-affiliation">Emory University</p>
+
+::: contact-links
+[<i class="fa fa-envelope"></i>](mailto:yuchi.liu02@gmail.com){title="Email"}
+[<i class="fa fa-github"></i>](https://github.com/yuchi-liu7){target="_blank" title="GitHub"}
+
+:::
+
+::: research-interests
+### Research Interests
+
+- AI in Healthcare
+- Clinical Trials
+- Biostatistical Methods
+- Public Health Analytics
+:::
+
+:::
+:::
+
+::: main-content
+
+::: content-section
+## About Me
+
+Hello! I'm Yuchi Liu, a Master's student in Biostatistics at **Emory University**. I'm passionate about leveraging statistical methods and machine learning to solve real-world health challenges and drive data-informed decision-making.
+
+My research interests span **AI in healthcare**, **clinical trials**, and **public health data analysis**. I enjoy working at the intersection of statistics, programming, and domain expertise to extract meaningful insights from complex datasets.
+:::
+
+::: content-section
+## What I Do
+
+::: highlights-grid
+
+::: highlight-item
+<div class="highlight-icon">📊</div>
+
+### Statistical Analysis
+
+Developing and applying statistical models using R, SAS, and Python to analyze biomedical and public health data.
+:::
+
+::: highlight-item
+<div class="highlight-icon">🤖</div>
+
+### Machine Learning
+
+Building predictive models and evaluating AI systems for healthcare applications, including medical triage and diagnostic support.
+:::
+
+::: highlight-item
+<div class="highlight-icon">🔬</div>
+
+### Research
+
+Contributing to cutting-edge research in AI-based medical systems and population health analytics.
+:::
+
+:::
+:::
+
+::: content-section
+## Education
+
+::: education-list
+
+::: education-item
+### Emory University
+
+<p class="degree">MSPH in Biostatistics</p>
+
+<p class="date">Aug 2024 - Present | Atlanta, USA</p>
+:::
+
+::: education-item
+### University of Liverpool
+
+<p class="degree">B.S. in Mathematics</p>
+
+<p class="date">Sep 2022 - Jun 2024 | Liverpool, U.K.</p>
+:::
+
+::: education-item
+### Xi'an Jiaotong-Liverpool University
+
+<p class="degree">B.S. in Applied Mathematics</p>
+
+<p class="date">Sep 2020 - Jun 2022 | Suzhou, China</p>
+:::
+
+:::
+:::
+
+::: content-section
+## Technical Skills
+
+::: skills-grid
+
+::: skill-category
+#### Programming
+
+::: skill-tags
+<span class="skill-tag">R</span>
+<span class="skill-tag">Python</span>
+<span class="skill-tag">SAS</span>
+<span class="skill-tag">SQL</span>
+<span class="skill-tag">JAVA</span>
+:::
+:::
+
+::: skill-category
+#### Statistical Methods
+
+::: skill-tags
+<span class="skill-tag">Machine Learning</span>
+<span class="skill-tag">Regression Analysis</span>
+<span class="skill-tag">Clinical Trials</span>
+<span class="skill-tag">SPSS</span>
+:::
+:::
+
+:::
+:::
+
+:::
+
+:::

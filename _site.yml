@@ -1,9 +1,27 @@
-name: "my-website"
+name: "Yuchi Liu - Portfolio"
+output_dir: "docs"
 navbar:
-  title: "My Website"
+  title: "Yuchi Liu"
+  type: inverse  # 添加这一行，让导航栏变成深色
+  bg: primary    # 添加这一行，使用蓝色背景
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
-    - text: "About"
-      href: about.html
-output_dir: docs
+    - text: "Projects"
+      icon: fa-computer
+      href: projects.html
+    - text: "CV"
+      icon: fa-paperclip
+      href: files/cv_full.pdf
+  right:
+    - icon: fa-github
+      href: https://github.com//yuchi-liu7
+    - icon: fa-envelope
+      href: mailto:yuchi.liu02@gmail.com
+output:
+  html_document:
+    theme: yeti
+    css: style.css
+    includes: 
+      in_header: header.html
