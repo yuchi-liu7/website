@@ -46,7 +46,7 @@ Leading the statistical analysis for a groundbreaking fine-tuned Large Language 
 
 ### Impact
 
-This research has significant implications for improving medical triage efficiency and patient outcomes. By demonstrating both high diagnostic accuracy and perfect sensitivity for emergencies, the system shows promise as a clinical decision support tool. {.impact-text}
+<p class="impact-text">This research has significant implications for improving medical triage efficiency and patient outcomes. By demonstrating both high diagnostic accuracy and perfect sensitivity for emergencies, the system shows promise as a clinical decision support tool.</p>
 :::
 
 ::: project-links
