@@ -1,31 +1,3 @@
 .Rproj.user/*
 .DS_Store
 
-# R Markdown
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-*.Rproj
-
-# Site building
-.Rproj.user/
-*.html
-*.utf8.md
-*.knit.md
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
