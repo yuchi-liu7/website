@@ -2,7 +2,7 @@
 
 A professional portfolio website built with R Markdown, showcasing my research experience, projects, and skills in biostatistics and data science.
 
-🌐 **Live Site**: <hhttps://yuchi-liu7.github.io/website/>
+🌐 **Live Site**: <https://yuchi-liu7.github.io/website/>
 
 ------------------------------------------------------------------------
 
